@@ -1,0 +1,186 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#div-left{
+    height: 100vh;
+    width: 35vw;
+    background-color: royalblue;
+    position: relative;
+}
+
+#left-upp{
+    height: 55vh;
+    width:100%;
+    background-color: #B3D5E3;
+    position: relative;
+}
+#left-upp h2{
+    position: absolute;
+    color:white;
+    top:40%;
+    left:15%;
+    font-size:40px;
+    width:60vw;
+    z-index:9;
+}
+#left-upp #h31{
+    position: relative;
+    font-size:10px;
+    top:70%;
+    left:15%;
+    color:white;
+    width:100%;
+   
+    font-size:14px;
+}
+#left-upp #h32{
+    position: relative;
+    font-size:10px;
+    top:70%;
+    left:15%;
+    color:white;
+    width:100%;
+    font-size:16px;
+    margin-top:4%;
+    color:#EB5C13;
+    text-decoration: dashed;
+}
+
+#left-down{
+    height: 45vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+#left-down #infobox{
+    height: 80%;
+    width: 80%;
+   
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    font-size:15px;
+    line-height:18px;
+    color:rgb(149, 149, 149);
+}
+#left-down #infobox #button{
+    position: absolute;
+    bottom:0;
+    left:75%;
+    transform: translate(-75%,0);
+    background-color: black;
+    padding:10px 30px;
+    text-align: center;
+    color:rgb(226, 226, 226);
+    transition: all ease 0.2s;
+}
+#left-down #infobox #button:hover{
+    scale:1.01;
+}
+
+#div-right{
+    height: 100vh;
+    width: 65vw;
+    background-color: #EB5C13;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap:30px;
+}
+#right-box1{
+    background-image:url('../images/i1.jpg') ;
+    background-position: center;
+    background-size: cover;
+}
+#right-box2{
+    background-image:url('../images/i2.jpg') ;
+    background-position: center;
+    background-size: cover;
+    margin-right:6%;
+}
+.box-right{
+    width:17%;
+    height:35%;
+    background-color: white;
+    position: relative;
+    margin-top:7%;
+}
+#box-white{
+    position: absolute;
+    height: 25%;
+    width: 6%;
+    background-color: rgba(255, 255, 255, 0.603);
+    top:50%;
+    right:4%;
+    border-radius:20px 20px 20px 20px;
+}
+#whitebox{
+    height: 14%;
+    width: 45%;
+    background-color: white;
+    position: absolute;
+    bottom:10%;
+    right:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:rgb(101, 101, 101);
+}
+#line{
+    width:30%;
+    height:1px;
+    background-color: rgb(109, 109, 109);
+}
+#page1{
+    position: relative;
+    font-family: sans;
+    height: 100%;
+    width: 100%;
+}
+#p1-left{
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: gold;
+    right:0%;
+}
+#contactus{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left:10%;
+    top:20%;
+
+}
+#p1info{
+    position:relative;
+    top:24%;
+    left:10%;
+    color:rgb(124, 124, 124);
+}
+#info-box{
+    height: 50%;
+    width: 30%;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
